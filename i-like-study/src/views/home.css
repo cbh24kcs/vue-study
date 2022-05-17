@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dfdfdf;
+}
+
+/*item背景：#fcbf49
+  日历红色：#d62828
+  desc文字：#194b49
+      */
+.logs {
+  background-color: #eae2b7;
+  width: 850px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding-top: 10px;
+}
+
+.item {
+  background-color: #fcbf49;
+  width: 800px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.date {
+  position: absolute;
+  margin: 10px;
+}
+
+.month {
+  background: #f00;
+  width: 75px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.day {
+  background: #fff;
+  height: 55px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 85px;
+  padding-top: 0.5px;
+}
+
+.desc {
+  text-align: center;
+  font-size: 18px;
+}
+
+.time {
+  text-align: center;
+}
